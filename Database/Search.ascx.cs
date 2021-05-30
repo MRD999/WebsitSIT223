@@ -46,6 +46,12 @@ namespace WebApplication1.Database
 
         protected void View_OnClick(object sender, EventArgs e)
         {
+            Button btn = (Button)sender;
+            GridViewRow gvr = (GridViewRow)btn.NamingContainer;
+            int rowindex = gvr.RowIndex;
+            String VIN = GridView1.Rows[rowindex].Cells[0].Text;
+            Session["VIN"] = VIN;
+            Response.Redirect("~/Database/View.aspx");
 
         }
 

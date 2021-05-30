@@ -1,7 +1,7 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="LoginForm.ascx.cs" Inherits="WebApplication1.Login.LoginForm1" %>
 
     
-<asp:Login ID="Login" runat="server" BackColor="#E3EAEB" BorderColor="#E6E2D8" BorderPadding="4" BorderStyle="Solid" BorderWidth="1px" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#333333"  UserNameLabelText="ID:" ViewStateMode="Disabled" TextLayout="TextOnTop">
+<asp:Login ID="Login" runat="server" BackColor="#E3EAEB" BorderColor="#E6E2D8" BorderPadding="4" BorderStyle="Solid" BorderWidth="1px" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#333333" OnAuthenticate="Login_Authenticate"  UserNameLabelText="ID:" ViewStateMode="Disabled" TextLayout="TextOnTop">
     <InstructionTextStyle Font-Italic="True" ForeColor="Black" />
     <LayoutTemplate>
         <table cellpadding="4" cellspacing="0" style="border-collapse:collapse;">

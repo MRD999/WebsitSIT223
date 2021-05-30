@@ -133,8 +133,10 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Images\Ad.jpg" />
+    <Content Include="Login\ChangePasswordForms.ascx" />
     <Content Include="Login\Login.aspx" />
     <Content Include="Login\LoginForm.ascx" />
+    <Content Include="Login\Profile.aspx" />
     <Content Include="MasterPages\Frontend.Master" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -204,6 +206,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Login\ChangePasswordForms.ascx.cs">
+      <DependentUpon>ChangePasswordForms.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login\ChangePasswordForms.ascx.designer.cs">
+      <DependentUpon>ChangePasswordForms.ascx</DependentUpon>
+    </Compile>
     <Compile Include="Login\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -217,6 +226,13 @@
     </Compile>
     <Compile Include="Login\LoginForm.ascx.designer.cs">
       <DependentUpon>LoginForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Login\Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login\Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPages\Frontend.Master.cs">
       <DependentUpon>Frontend.Master</DependentUpon>

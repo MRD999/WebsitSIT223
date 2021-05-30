@@ -25,27 +25,18 @@ namespace WebApplication1.Login
 
             SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\DataBase.mdf;Integrated Security=True;");
             SqlDataAdapter sda1 = new SqlDataAdapter("Select UserName,Password FROM tblUsers WHERE UserName = '" + UserName + "' AND Password = '" + Password + "'", con);
-            SqlDataAdapter sda2 = new SqlDataAdapter("SELECT UserName , Password FROM tblUsers WHERE UserName ='" + UserName + "' AND Password = '" + Password + "'", con);
 
             DataTable dt1 = new DataTable();
-            DataTable dt2 = new DataTable();
             sda1.Fill(dt1);
-            sda2.Fill(dt2);
+
 
 
             if (dt1.Rows.Count > 0)
             {
-                Session["UserName"] = UserName;
+                Session["UserID"] = UserName;
                 Response.Redirect("~/Default.aspx");
                 return true;
 
-
-            }
-            else if (dt2.Rows.Count > 0)
-            {
-                Session["UserName"] = UserName;
-                Response.Redirect("~/Default.aspx");
-                return true;
 
             }
             else

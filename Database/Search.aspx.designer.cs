@@ -22,5 +22,14 @@ namespace WebApplication1.Database
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lbTitle;
+
+        /// <summary>
+        /// Search1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::WebApplication1.Database.Search1 Search1;
     }
 }

@@ -118,6 +118,7 @@
     <Content Include="CSS\reset_styles.css" />
     <Content Include="CSS\StyleSheet1.css" />
     <Content Include="Database\Archive.aspx" />
+    <Content Include="Database\Search.ascx" />
     <Content Include="Database\Search.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
@@ -178,6 +179,13 @@
     </Compile>
     <Compile Include="Database\Archive.aspx.designer.cs">
       <DependentUpon>Archive.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Database\Search.ascx.cs">
+      <DependentUpon>Search.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Database\Search.ascx.designer.cs">
+      <DependentUpon>Search.ascx</DependentUpon>
     </Compile>
     <Compile Include="Database\Search.aspx.cs">
       <DependentUpon>Search.aspx</DependentUpon>

@@ -71,3 +71,4 @@ G:\Tri1\Professional practice\Website\WebApplication1\obj\Debug\WebApplication1.
 G:\Tri1\Professional practice\Website\WebApplication1\obj\Debug\WebApplication1.csproj.CopyComplete
 G:\Tri1\Professional practice\Website\WebApplication1\obj\Debug\WebApplication1.dll
 G:\Tri1\Professional practice\Website\WebApplication1\obj\Debug\WebApplication1.pdb
+G:\Tri1\Professional practice\Website\WebApplication1\obj\Debug\WebApplication1.csprojAssemblyReference.cache

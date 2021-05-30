@@ -11,25 +11,16 @@ namespace WebApplication1.Login
 {
 
 
-    public partial class Login
+    public partial class LoginForm1
     {
 
         /// <summary>
-        /// lbTitle control.
+        /// Login control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbTitle;
-
-        /// <summary>
-        /// LoginForm control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::WebApplication1.Login.LoginForm1 LoginForm;
+        protected global::System.Web.UI.WebControls.Login Login;
     }
 }

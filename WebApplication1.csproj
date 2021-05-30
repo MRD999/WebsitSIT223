@@ -129,6 +129,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Images\Ad.jpg" />
     <Content Include="Login\Login.aspx" />
+    <Content Include="Login\LoginForm.ascx" />
     <Content Include="MasterPages\Frontend.Master" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -197,6 +198,13 @@
     </Compile>
     <Compile Include="Login\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login\LoginForm.ascx.cs">
+      <DependentUpon>LoginForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login\LoginForm.ascx.designer.cs">
+      <DependentUpon>LoginForm.ascx</DependentUpon>
     </Compile>
     <Compile Include="MasterPages\Frontend.Master.cs">
       <DependentUpon>Frontend.Master</DependentUpon>

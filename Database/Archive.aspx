@@ -15,6 +15,11 @@
                     <asp:CheckBoxField DataField="DISCONTINUED" HeaderText="DISCONTINUED" SortExpression="DISCONTINUED" />
                     <asp:BoundField DataField="Known Issues" HeaderText="Known Issues" SortExpression="Known Issues" />
                     <asp:CheckBoxField DataField="Recalled" HeaderText="Recalled" SortExpression="Recalled" />
+                    <asp:TemplateField>
+                    <ItemTemplate>
+                        <asp:Button ID="viewButton" runat="server" OnClick="View_OnClick" Text="View" />
+                    </ItemTemplate>
+        </asp:TemplateField>
                 </Columns>
             </asp:GridView>
             <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\DataBase.mdf;Integrated Security=True" ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM [tblVehicle] ORDER BY [Manufacturer], [VIN]"></asp:SqlDataSource>
